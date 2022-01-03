@@ -3,7 +3,10 @@
 
 int main()
 {
-    int principle = 100, rate = 4, years = 1;
+    int principle, rate, years;
+    printf("Enter the values of priciple, rate and years : \n");
+    scanf("%d %d %d", &principle, &rate, &years);
+
     float simpleinterest = (float)(principle * rate * years) / 100;
 
     printf("Simple Interest = %f\n", simpleinterest);

@@ -8,7 +8,9 @@ int main()
 
     while (a < 10)
     {
-        printf("%d\n", a);
+        // a = 11;
+        // while (a >10){ --> these two lines will lead to an infinite loop
+        printf("%d \n", a);
         a++;
     }
     return 0;
